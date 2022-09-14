@@ -6,8 +6,8 @@ import Top from "../../components/header/Top";
 function Header() {
   return (
     <div>
-      {/* <Top /> */}
-      <Botton />
+      <Top />
+      {/* <Botton /> */}
       <Nav />
     </div>
   );

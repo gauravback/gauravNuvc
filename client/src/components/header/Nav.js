@@ -9,11 +9,11 @@ function Nav() {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light"
-      style={{ paddingLeft: 30, paddingRight: 30, backgroundColor: "#5c007a" }}
+      style={{ paddingLeft: 30, paddingRight: 30, backgroundColor: "rgb(63 1 83)" }}
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/" style={{ color: "white" }}>
-          <img src={logo} alt="logo" style={{ width: 30 }} />
+          <img src={logo} alt="logo" style={{ width: 85 }} />
         </Link>
         <Link
           to="/creers"
@@ -77,13 +77,13 @@ function Nav() {
                   type="button"
                   class="btn btn-secondary dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"
+                  aria-expanded="false" style={{backgroundColor:"rgb(63, 1, 83)"}}
                 >
                   Vacancy
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu" style={{backgroundColor:"rgb(63, 1, 83)"}}>
                   <li>
-                    <Link to="/creers" className="dropdown-item" href="#">
+                    <Link to="/creers" className="dropdown-item" href="#" >
                       Vacancy
                     </Link>
                   </li>
