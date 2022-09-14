@@ -6,7 +6,7 @@ import Top from "../../components/header/Top";
 function Header() {
   return (
     <div>
-      <Top />
+      {/* <Top /> */}
       {/* <Botton /> */}
       <Nav />
     </div>
