@@ -2,10 +2,10 @@ import React from "react";
 
 function ContentCard() {
   return (
-    <div style={{backgroundImage: "url('https://nuvc-public.s3.ap-south-1.amazonaws.com/a3.jpg')",
-    backgroundSize: 'contain',backgroundRepeat: 'no-repeat',
+    <div style={{backgroundImage: "url('https://nuvc-public.s3.ap-south-1.amazonaws.com/Untitled+design+(16).png')",
+    backgroundSize: 'conver',backgroundRepeat: 'no-repeat',backgroundAttachment: 'fixed',
     backgroundPosition: 'left'}}>
-      <div style={{paddingLeft:'20vw',paddingRight:'20vw',paddingTop:'2vh',paddingBottom:'2vh', textAlign: 'justify',backgroundBlendMode : 'lighten'}}>
+      <div style={{paddingLeft:'28vw',paddingRight:'10vw',paddingTop:'2vh',paddingBottom:'2vh', textAlign: 'justify',backgroundBlendMode : 'lighten'}}>
        <h2 style={{textAlign: 'center', color:'#104a64'}}>
           <b>आपका स्वागत है</b>
           <span style={{ color: "#d72886" }}> उद्यमित विकास परिषद् में</span>
