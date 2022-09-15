@@ -19,7 +19,7 @@ function Content() {
     };
   }, []);
   return (
-    <div className="container">
+    <div>
       <div className="row">
         <div className="col-md-12">
           <ContentCard />

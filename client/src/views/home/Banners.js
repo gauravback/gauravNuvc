@@ -7,12 +7,9 @@ import b5 from "../../asstes/slider5.jpg";
 
 function Banners() {
   return (
-    <div
-      id="carouselExampleCaptions"
-      className="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div className="carousel-indicators">
+    <div>
+      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/NUVC-IMAGES-WEBSITE.jpg" class="img-fluid"></img>
+      {/* <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleCaptions"
@@ -113,7 +110,7 @@ function Banners() {
           style={{ color: "gray" }}
         ></span>
         <span className="visually-hidden">Next</span>
-      </button>
+      </button> */}
     </div>
   );
 }
