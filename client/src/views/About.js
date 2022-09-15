@@ -1,11 +1,13 @@
 import React from "react";
-
+import Classes from "./About.css";
+import images from "../asstes/banners/1.png";
+import Partner from "./home/Partner";
 function About() {
   return (
     <div>
       <img
         src={
-          "https://nuvc-public.s3.ap-south-1.amazonaws.com/ABOUT+US+PAGES+FOR+WEBSITE+IIi+PART-01.png"
+          "https://nuvc-public.s3.ap-south-1.amazonaws.com/CompressJPEG.Online_50kb_42855.jpg"
         }
         style={{ width: "98.9vw", height: "19vw" }}
       />
@@ -79,6 +81,61 @@ function About() {
           </div>
         </div>
       </div>
+      <section class="course">
+        <h1>Courses We Offers</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
+          aperiam!
+        </p>
+        <div class="row">
+          <div class="course-col">
+            <h3>Web Developement</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+              eveniet unde non! Esse facilis explicabo fugit? Veniam fugiat
+              dicta libero.
+            </p>
+          </div>
+          <div class="course-col">
+            <h3>Digital Marketing</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+              eveniet unde non! Esse facilis explicabo fugit? Veniam fugiat
+              dicta libero.
+            </p>
+          </div>
+          <div class="course-col">
+            <h3>App Developement</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est
+              eveniet unde non! Esse facilis explicabo fugit? Veniam fugiat
+              dicta libero.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="row">
+          <div class="about-col">
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+              accusantium libero. Asperiores unde odit voluptas est amet. Non
+              maiores obcaecati temporibus sit. Doloribus vel blanditiis qui
+              molestiae ab quis ipsam ex itaque vero pariatur quo iusto ipsum
+              sit, ullam officiis.
+            </p>
+            {/* <a href="" class="hero-btn red-btn">
+             
+            </a> */}
+            <button> EXPLORE NOW</button>
+          </div>
+          <div class="about-col">
+            <img src={images} alt="" />
+          </div>
+        </div>
+      </section>
+      <Partner />
     </div>
   );
 }
