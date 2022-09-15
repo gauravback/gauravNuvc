@@ -324,3 +324,91 @@ a:focus {
 .crd {
   width: 100%;
 }
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: rgb(14 122 151 / 51%);
+  border-bottom: 2pxsolidrgba(0,0,0,.125);
+}
+
+.step1 {
+  /* border: solid #ffffff; */
+  /* border-radius: 0.5em; */
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(63 1 83) ;
+  justify-content: center;
+  margin-top: 25vh;
+  margin-bottom:20vh;
+  padding:1vw;
+}
+.stephed {
+  background-color: rgb(63 1 83);
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 25vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+
+}
+
+.step1:hover {
+  transform: scale(1.2); 
+}
+.stepsbig{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(63 1 83);
+  
+}
+.stepsmall{
+  display: flex;
+  flex-direction: row;
+  background-image: url("https://nuvc-public.s3.ap-south-1.amazonaws.com/India_iStock.com_by_Bartosz_Hadyniak_1-1hh5dvs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.newss{
+  padding-left: 15vw;
+  padding-right: 15vw;
+  /* background-color: #fad2ea; */
+  padding-bottom: 5vw;
+  /* border: solid #d34799; */
+  /* background-image: url(https://nuvc-public.s3.ap-south-1.amazonaws.com/PNG-LOGO.png); */
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+@media only screen and (max-width: 750px) {
+
+  .stepsbig {
+    flex-direction: column;
+  }
+  .stephed{
+    padding-top: 0;
+    padding: 5vw;
+  }
+  .step1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    align-items: center;
+  }
+  .step1:hover {
+    transform: none; 
+  }
+  .step{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .stepsmall{
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+  }
+}

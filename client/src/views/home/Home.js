@@ -7,6 +7,8 @@ import Partner from "./Partner";
 import Headlines from "./Headlines";
 import Credit from "../pages/Credit";
 import OurPrograms from "../OurPrograms";
+import Carousel from "./Carousel";
+import Steps from "./Steps";
 
 function Home() {
   return (
@@ -15,8 +17,10 @@ function Home() {
       <Banners />
       <Headlines />
       <Content />
+      {/* <Carousel /> */}
+      <Steps />
       <OurPrograms />
-      <Partner />
+      {/* <Partner /> */}
       {/* <Credit /> */}
       {/* <Footer /> */}
     </div>

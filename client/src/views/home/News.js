@@ -15,7 +15,7 @@ function News() {
     return (
       <div class="card">
         <div className="card-header">
-          <h6 class="card-title m-0">News</h6>
+          <h6 class="card-title m-0" >News</h6>
         </div>
         <div class="card-body">
           <marquee
@@ -30,9 +30,9 @@ function News() {
     );
   }
   return (
-    <div class="card shadow-sm">
+    <div class="card shadow-lg">
       <div className="card-header">
-        <h6 class="card-title m-0">News</h6>
+        <h6 class="card-title m-0" style={{fontSize:'1.25rem', justifyContent: 'center'}}>News</h6>
       </div>
       <div class="card-body">
         <marquee
@@ -54,7 +54,8 @@ function News() {
                 <span className="news-time">
                   {new Date(value.date).toLocaleString()}
                 </span>
-                <Link to={"/news/descp/" + value._id}>{value.title}</Link>
+                
+                <Link to={"/news/descp/" + value._id}>{value.title} </Link>
               </li>
             ))}
           </ul>
