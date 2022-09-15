@@ -2,6 +2,8 @@ import React from "react";
 import Classes from "./About.css";
 import images from "../asstes/banners/1.png";
 import Partner from "./home/Partner";
+import cowinimage from ".././asstes/banner-designer.png";
+
 function About() {
   return (
     <div>
@@ -14,7 +16,7 @@ function About() {
 
       <div className="container">
         <div
-          className="shadow-lg p-3 mb-5 bg-white rounded my-4"
+          className=" p-3 mb-5 bg-white rounded my-4"
           style={{
             backgroundImage:
               "url('https://nuvc-public.s3.ap-south-1.amazonaws.com/Untitled+design+(17).png')",
@@ -135,7 +137,14 @@ function About() {
           </div>
         </div>
       </section>
+      <div className="horizantal">
+        <hr></hr>
+      </div>
       <Partner />
+
+      <div className="bottom-content">
+        <img src={cowinimage} alt="" />
+      </div>
     </div>
   );
 }
