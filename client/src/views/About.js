@@ -3,6 +3,10 @@ import Classes from "./About.css";
 import images from "../asstes/banners/1.png";
 import Partner from "./home/Partner";
 import cowinimage from ".././asstes/banner-designer.png";
+import Carousel from "react-bootstrap/Carousel";
+import apply from "../asstes/banner-designer-2.jpg";
+import contact from "../asstes/banner-designer-3.jpg";
+import submit from "../asstes/banner-designer-1.jpg";
 
 function About() {
   return (
@@ -11,7 +15,7 @@ function About() {
         src={
           "https://nuvc-public.s3.ap-south-1.amazonaws.com/CompressJPEG.Online_50kb_42855.jpg"
         }
-        style={{ width: "98.9vw", height: "19vw" }}
+        style={{ width: "98.9vw", height: "25vw" }}
       />
 
       <div className="container">
@@ -137,14 +141,72 @@ function About() {
           </div>
         </div>
       </section>
-      <div className="horizantal">
-        <hr></hr>
-      </div>
-      <Partner />
 
+      <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, eius?
+        </p>
+
+        <div class="row">
+          <div className="horizantal">
+            <hr></hr>
+          </div>
+          <div class="campus-col">
+            <img src={contact} alt="" />
+            <div class="layer">
+              <h3> Delhi</h3>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button>Read More</button>
+          </div>
+          <div class="campus-col">
+            <img src={apply} alt="" />
+            <div class="layer">
+              <h3>Bihar</h3>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button>Read More</button>
+          </div>
+          <div class="campus-col">
+            <img src={submit} alt="" />
+            <div class="layer">
+              <h3>UttarPradesh</h3>
+            </div>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </section>
+      <div className="partner">
+        <Partner />
+      </div>
       <div className="bottom-content">
         <img src={cowinimage} alt="" />
       </div>
+
+      <div></div>
     </div>
   );
 }
