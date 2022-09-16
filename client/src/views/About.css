@@ -69,3 +69,22 @@ h3 {
   color: white;
 }
 
+.bottom-content img {
+  width: 98.9vw;
+  overflow: hidden;
+}
+
+.bottom-content {
+  overflow: hidden;
+  background-size: cover;
+}
+
+.horizantal {
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+}
+.horizantal hr {
+  width: 30vw;
+  color: blue;
+}
