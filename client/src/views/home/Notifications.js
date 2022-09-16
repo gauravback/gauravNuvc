@@ -34,9 +34,9 @@ function Notifications() {
     );
   }
   return (
-    <div class="card shadow-sm">
+    <div class="card shadow-lg">
       <div className="card-header">
-        <h6 class="card-title m-0">Notifications</h6>
+        <h6 class="card-title m-0"style={{fontSize:'1.25rem', justifyContent: 'center', }}>Notifications</h6>
       </div>
       <div class="card-body">
         <marquee
@@ -58,9 +58,9 @@ function Notifications() {
                 <span className="news-time">
                   {new Date(value.date).toLocaleString()}
                 </span>
-                <p className="news-text text-truncate">
+                
                   <Link to={"/news/descp/" + value._id}>{value.title}</Link>
-                </p>
+                
               </li>
             ))}
           </ul>
