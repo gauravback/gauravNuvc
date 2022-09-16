@@ -371,16 +371,7 @@ a:focus {
   background-size: cover;
 
 }
-.newss{
-  padding-left: 15vw;
-  padding-right: 15vw;
-  /* background-color: #fad2ea; */
-  padding-bottom: 5vw;
-  /* border: solid #d34799; */
-  /* background-image: url(https://nuvc-public.s3.ap-south-1.amazonaws.com/PNG-LOGO.png); */
-  background-repeat:no-repeat;
-  background-attachment: fixed;
-}
+
 @media only screen and (max-width: 750px) {
 
   .stepsbig {

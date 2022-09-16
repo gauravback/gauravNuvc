@@ -17,10 +17,10 @@ function Home() {
       <Banners />
       <Headlines />
       <Content />
-      {/* <Carousel /> */}
+      <Carousel />
       <Steps />
       <OurPrograms />
-      {/* <Partner /> */}
+      <Partner />
       {/* <Credit /> */}
       {/* <Footer /> */}
     </div>
