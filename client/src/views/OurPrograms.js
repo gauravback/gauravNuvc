@@ -2,17 +2,54 @@ import React from "react";
 
 function OurPrograms() {
   return (
-    <div>
+    <div className="container">
       <center>
         <br />
         <h2 >
-          {/* style={{ color: "white", fontWeight: "bold", fontSize: "3rem" }}> */}
           Our Programs
         </h2>
         <br />
       </center>
-      <div style={{display: "flex", flexDirection: "row"}}>
-      <div class="card mb-3" style={{border: "1px solid"}}>
+      <div className="container" style={{display: "flex", flexDirection: "row"}}>
+      <div class="card mb-3" style={{border: "2px solid #d63695"}}>
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/%E0%A4%86%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B0+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0+%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.png" class="img-fluid rounded-start"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Employment and Councelling Center</h5>
+        <p class="card-text">Provice database of available employment opportunities in
+      goverment or Non-government sector.Promoting awareness on National
+      apprentice program, National Career service, NSDC ASEEM PORTAL,
+      SKILL INDIA, GOVERNMENT Employment exchange, Atmanirvar Bharat
+      Rojgar Abhiyan, etc</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3" style={{border: "1px solid"}}>
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/%E0%A4%86%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B0+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0+%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.png" class="img-fluid rounded-start"/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Employment and Councelling Center</h5>
+        <p class="card-text">Provice database of available employment opportunities in
+      goverment or Non-government sector.Promoting awareness on National
+      apprentice program, National Career service, NSDC ASEEM PORTAL,
+      SKILL INDIA, GOVERNMENT Employment exchange, Atmanirvar Bharat
+      Rojgar Abhiyan, etc</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div className="container" style={{display: "flex", flexDirection: "row"}}>
+      <div class="card mb-3" style={{border: "2px solid #d63695"}}>
   <div class="row g-0">
     <div class="col-md-4">
       <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/%E0%A4%86%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B0+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0+%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.png" class="img-fluid rounded-start"/>
