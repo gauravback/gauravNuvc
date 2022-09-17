@@ -3,10 +3,11 @@ import Classes from "./About.css";
 import images from "../asstes/banners/1.png";
 import Partner from "./home/Partner";
 import cowinimage from ".././asstes/banner-designer.png";
-import Carousel from "react-bootstrap/Carousel";
+
 import apply from "../asstes/banner-designer-2.jpg";
 import contact from "../asstes/banner-designer-3.jpg";
 import submit from "../asstes/banner-designer-1.jpg";
+import Carousel from "../views/home/Carousel";
 
 function About() {
   return (
@@ -149,9 +150,6 @@ function About() {
         </p>
 
         <div class="row">
-          <div className="horizantal">
-            <hr></hr>
-          </div>
           <div class="campus-col">
             <img src={contact} alt="" />
             <div class="layer">
@@ -205,8 +203,6 @@ function About() {
       <div className="bottom-content">
         <img src={cowinimage} alt="" />
       </div>
-
-      <div></div>
     </div>
   );
 }
