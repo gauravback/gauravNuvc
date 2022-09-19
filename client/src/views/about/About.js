@@ -1,13 +1,13 @@
 import React from "react";
 import Classes from "./About.css";
 import images from "../asstes/banners/1.png";
-import Partner from "./home/Partner";
+import Partner from "../home/Partner";
 import cowinimage from ".././asstes/banner-designer.png";
 
 import apply from "../asstes/banner-designer-2.jpg";
 import contact from "../asstes/banner-designer-3.jpg";
 import submit from "../asstes/banner-designer-1.jpg";
-import Carousel from "../views/home/Carousel";
+import Carousel from "../home/Carousel";
 
 function About() {
   return (
