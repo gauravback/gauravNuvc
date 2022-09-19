@@ -9,7 +9,7 @@ import Credit from "../pages/Credit";
 import OurPrograms from "../OurPrograms";
 import Carousel from "./Carousel";
 import Steps from "./Steps";
-import Gallary from "./gallary";
+import GalleryCaro from "./gallerycaro";
 import FAQ from "./Faq";
 import Review from "./Review";
 
@@ -22,7 +22,7 @@ function Home() {
       <Steps />
       <Partner />
       <OurPrograms />
-      <Gallary />
+      <GalleryCaro />
       <FAQ />
       <Review />
     </div>

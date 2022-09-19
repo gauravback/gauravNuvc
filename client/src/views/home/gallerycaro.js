@@ -1,7 +1,7 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 
-function Gallary() {
+function GalleryCaro() {
   return (
     <div
       style={{
@@ -13,7 +13,7 @@ function Gallary() {
       <div style={{ backgroundColor:"rgb(63 1 83)" , color :"#ffffff",padding:"2px"}}>
         <center>
           {' '}
-          <a  href="./digitalLearning">
+          <a  href="./gallery">
           <h1 className='card-title'>Achievements/उपलब्धियों</h1>
           </a>
         </center>
@@ -106,4 +106,4 @@ function Gallary() {
   )
 }
 
-export default Gallary;
+export default GalleryCaro;

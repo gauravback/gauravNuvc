@@ -18,7 +18,7 @@ function DigitalLearning() {
     };
   }, []);
   return (
-    <div>
+    <div >
       <div>
         <img src={hero} style={{ width: "98.9vw", height: "15vw" }} />
       </div>

@@ -48,9 +48,29 @@ function Nav() {
             </li>
 
             <li className="nav-item">
-              <Link to="/about" className="nav-link" aria-current="page">
-                About
-              </Link>
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="btn btn-secondary dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false" style={{backgroundColor:"rgb(63, 1, 83)"}}
+                >
+                  About
+                </button>
+                <ul class="dropdown-menu" style={{backgroundColor:"rgb(63, 1, 83)"}}>
+                  <li>
+                    <Link to="/about" className="dropdown-item" href="#" >
+                      About US
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/gallery" className="dropdown-item" href="#">
+                      Gallery
+                    </Link>
+                  </li>
+                </ul>
+              </div>
             </li>
 
             <li className="nav-item">

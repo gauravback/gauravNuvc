@@ -28,7 +28,8 @@ function Partner() {
         width: '100%',
         height: 150,
         display:"flex", flexDirection:"row",
-        border:"5px solid #d72886"
+        border:"5px solid #d72886",
+        marginTop:"10px"
       }}
     >
       <div style={{paddingTop:20, backgroundColor:"#d72886" , color :"#ffffff"}}>

@@ -3,9 +3,10 @@ import Card from 'react-bootstrap/Card';
 
 function Review() {
   return (
+    <div  style={{ border:"5px solid #6978b1", backgroundColor:"#6978b1"}}>
     <div className="container" style={{display:"flex", flexDirection:"row", padding:"2vw", border:"5px solid #6978b1", marginBottom:"1vw"}}>
     <Card className="text-center" style={
-        {padding:"3vw"}
+        {padding:"3vw",backgroundColor:"#6978b1"}
     }>
       <Card.Header style={{color:"#ffffff"}}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
   <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
@@ -29,7 +30,7 @@ function Review() {
           With supporting text below as a natural lead-in to additional content.
         </Card.Text>
       </Card.Body>
-      <Card.Footer  style={{backgroundColor:'#a6c3d1', color:"#ffffff"}}>2 days ago</Card.Footer>
+      <Card.Footer  style={{backgroundColor:'rgb(14 122 151 / 51%)', color:"#ffffff"}}>2 days ago</Card.Footer>
     </Card>
 
     <Card className="text-center">
@@ -60,7 +61,7 @@ function Review() {
     </Card>
 
     <Card className="text-center" style={
-        {padding:"3vw"}
+        {padding:"3vw",backgroundColor:"#6978b1"}
     }>
     <Card.Header style={{color:"#ffffff"}}>
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -85,8 +86,9 @@ function Review() {
           With supporting text below as a natural lead-in to additional content.
         </Card.Text>
       </Card.Body>
-      <Card.Footer  style={{backgroundColor:'#a6c3d1', color:"#ffffff"}}>2 days ago</Card.Footer>
+      <Card.Footer  style={{backgroundColor:'rgb(14 122 151 / 51%)', color:"#ffffff"}}>2 days ago</Card.Footer>
     </Card>
+    </div>
     </div>
   );
 }

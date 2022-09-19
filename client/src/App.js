@@ -40,6 +40,7 @@ import Faq from "./views/pages/Faq";
 import Pay10 from "./Pay";
 import TrainingCentre from "./components/trainingCenters/TrainingCentre";
 import VerifyEmail from "./views/auth/VerifyEmail";
+import Gallery from "./views/about/gallery";
 
 function AuthenticatedRoutes(Component, props = {}) {
   const auth = getAuth(app);
@@ -109,6 +110,7 @@ function App() {
           <Route exact path="/home" component={Home} />
           <Route exact path="/creers" component={Career} />
           <Route exact path="/digitalLearning" component={DigitalLearning} />
+          <Route exact path="/gallery" component={Gallery} />
           <Route
             exact
             path="/digitalLearning/descp/:cid"
