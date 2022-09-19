@@ -203,6 +203,15 @@ function About() {
       <div className="bottom-content">
         <img src={cowinimage} alt="" />
       </div>
+      <div className="paragraph">
+        <p>
+          The Caterpillar and Alice looked at each other for some time in
+          silence: at last the Caterpillar took the hookah out of its mouth, and
+        </p>
+      </div>
+      {/* <div className="test">
+        <img src={contact} alt="" />
+      </div> */}
     </div>
   );
 }

@@ -146,7 +146,7 @@ h3 {
   transition: 0.5s;
 }
 .layer:hover {
-  background: rgba(226, 62, 62, 0.7);
+  background: rgba(62, 223, 226, 0.7);
 }
 .layer h3 {
   width: 100%;
@@ -185,4 +185,44 @@ h3 {
   .campus-col img {
     width: 96.2vw;
   }
+  .about-col img {
+    margin-top: 10%;
+  }
 }
+
+.paragraph {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.paragraph p {
+  color: purple;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 25%;
+    width: 70%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/* .test {
+  display: flex;
+  justify-content: center;
+}
+.test img {
+  width: 50vw;
+}
+
+.test:hover {
+  box-shadow: inset 0 0 0 25px #53a7ea;
+  width: 80vw;
+} */

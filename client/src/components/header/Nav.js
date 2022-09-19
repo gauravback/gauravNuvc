@@ -9,7 +9,11 @@ function Nav() {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light"
-      style={{ paddingLeft: 30, paddingRight: 30, backgroundColor: "rgb(63 1 83)" }}
+      style={{
+        paddingLeft: 30,
+        paddingRight: 30,
+        backgroundColor: "rgb(63 1 83)",
+      }}
     >
       <div className="container-fluid">
         <Link className="navbar-brand" to="/" style={{ color: "white" }}>
@@ -77,13 +81,17 @@ function Nav() {
                   type="button"
                   class="btn btn-secondary dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false" style={{backgroundColor:"rgb(63, 1, 83)"}}
+                  aria-expanded="false"
+                  style={{ backgroundColor: "rgb(63, 1, 83)" }}
                 >
                   Vacancy
                 </button>
-                <ul class="dropdown-menu" style={{backgroundColor:"rgb(63, 1, 83)"}}>
+                <ul
+                  class="dropdown-menu"
+                  style={{ backgroundColor: "rgb(63, 1, 83)" }}
+                >
                   <li>
-                    <Link to="/creers" className="dropdown-item" href="#" >
+                    <Link to="/creers" className="dropdown-item" href="#">
                       Vacancy
                     </Link>
                   </li>
@@ -98,7 +106,7 @@ function Nav() {
             </li>
             <li className="nav-item">
               <Link to="/trainingCentre" className="nav-link" href="#">
-              Training Centre
+                Training Centre
               </Link>
             </li>
 
