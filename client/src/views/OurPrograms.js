@@ -6,15 +6,15 @@ function OurPrograms() {
       <center>
         <br />
         <h1 style={{fontWeight:"bold",color:"rgb(63 1 83)", textDecoration:"underline"}}>
-          Our Programs
+          Our Programs/हमारे कार्यक्रम
         </h1>
         <br />
       </center>
       <div className="container" style={{display: "flex", flexDirection: "row", justifyContent:"space-around"}}>
-      <div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"2rem"}}>
+      <div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"1rem"}}>
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/%E0%A4%86%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B0+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0+%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.png" class="img-fluid rounded-start" />
+      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/aatm-nirbhar-Bharat-Abhiyan--poster-01.jpg" class="img-fluid rounded-start" />
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -32,7 +32,7 @@ function OurPrograms() {
 <div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"2rem"}}>
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/Entrepreneurship-post--website.png" class="img-fluid rounded-start"/>
+      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/Entrepreneur-01_11zon.jpg" class="img-fluid rounded-start"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -51,7 +51,7 @@ function OurPrograms() {
       <div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"2rem"}}>
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/%E0%A4%86%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B0+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0+%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.png" class="img-fluid rounded-start"/>
+      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/skill+devlopments+poster+16+sep+2022-01-01_11zon.jpg" class="img-fluid rounded-start"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -65,7 +65,7 @@ function OurPrograms() {
 <div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"2rem"}}>
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/%E0%A4%86%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AD%E0%A4%B0+%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4+%E0%A4%B0%E0%A5%8B%E0%A4%9C%E0%A4%97%E0%A4%BE%E0%A4%B0+%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE.png" class="img-fluid rounded-start"/>
+      <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/new+national+educational+policy+2022+17+sep+2022-01-01_11zon.jpg" class="img-fluid rounded-start"/>
     </div>
     <div class="col-md-8">
       <div class="card-body">
