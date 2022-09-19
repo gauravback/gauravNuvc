@@ -10,7 +10,7 @@ function Programs() {
         <div className="card-body">
           <h4 className="card-title">
             <b>
-              <span style={{ color: "red" }}>
+              <span style={{ color: "red", alignContent:"center"}}>
                 <em>उद्यमित कार्नर</em>
               </span>
             </b>{" "}
@@ -44,9 +44,6 @@ function Programs() {
       </div>
 
       <Partner />
-      {/* <a href="#">
-        Read more <i class="fas fa-long-arrow-alt-right"></i>
-      </a> */}
     </div>
   );
 }
