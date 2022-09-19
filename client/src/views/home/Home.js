@@ -10,22 +10,21 @@ import OurPrograms from "../OurPrograms";
 import Carousel from "./Carousel";
 import Steps from "./Steps";
 import Gallary from "./gallary";
+import FAQ from "./Faq";
+import Review from "./Review";
 
 function Home() {
   return (
     <div>
-      {/* <Header /> */}
       <Banners />
       <Headlines />
       <Content />
-      <Carousel />
       <Steps />
       <Partner />
       <OurPrograms />
-      
       <Gallary />
-      {/* <Credit /> */}
-      {/* <Footer /> */}
+      <FAQ />
+      <Review />
     </div>
   );
 }

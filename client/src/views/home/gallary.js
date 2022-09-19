@@ -10,7 +10,7 @@ function Gallary() {
         border:"8px solid rgb(63 1 83)"
       }}
     >
-      <div style={{ backgroundColor:"rgb(63 1 83)" , color :"#ffffff"}}>
+      <div style={{ backgroundColor:"rgb(63 1 83)" , color :"#ffffff",padding:"2px"}}>
         <center>
           {' '}
           <a  href="./digitalLearning">
