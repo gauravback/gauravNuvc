@@ -35,7 +35,7 @@ function Partner() {
       <div style={{paddingTop:20, backgroundColor:"#d72886" , color :"#ffffff"}}>
         <center>
           
-          <h3 className='card-title' >Our Partners/ 
+          <h3 className='card-title'style={{ color :"#ffffff"}} >Our Partners/ 
 हमारे सहयोगियों
 </h3>
         </center>
