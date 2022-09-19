@@ -1,4 +1,5 @@
 import React from 'react'
+import Marquee from "react-fast-marquee";
 import p1 from '../../asstes/banners/1.png'
 import p2 from '../../asstes/banners/2.png'
 import p3 from '../../asstes/banners/3.png'
@@ -25,17 +26,20 @@ function Partner() {
     <div
       style={{
         width: '100%',
-        height: 250,
-        marginTop: 15,
+        height: 150,
+        display:"flex", flexDirection:"row",
+        border:"5px solid #d72886"
       }}
     >
-      <div style={{ height: 40, marginTop: 10 }}>
+      <div style={{paddingTop:20, backgroundColor:"#d72886" , color :"#ffffff"}}>
         <center>
-          {' '}
-          <h4 className='card-title'>Our Partners</h4>
+          
+          <h3 className='card-title' >Our Partners/ 
+हमारे सहयोगियों
+</h3>
         </center>
       </div>
-      <marquee style={{ scrollamount: '1' }}>
+      <Marquee speed={150} loop={0}>
         <img
           src={p1}
           alt='logo'
@@ -225,7 +229,7 @@ function Partner() {
             marginLeft: 37,
           }}
         />
-      </marquee>
+      </Marquee>
     </div>
   )
 }

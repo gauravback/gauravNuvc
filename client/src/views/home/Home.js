@@ -9,6 +9,7 @@ import Credit from "../pages/Credit";
 import OurPrograms from "../OurPrograms";
 import Carousel from "./Carousel";
 import Steps from "./Steps";
+import Gallary from "./gallary";
 
 function Home() {
   return (
@@ -19,8 +20,10 @@ function Home() {
       <Content />
       <Carousel />
       <Steps />
-      <OurPrograms />
       <Partner />
+      <OurPrograms />
+      
+      <Gallary />
       {/* <Credit /> */}
       {/* <Footer /> */}
     </div>
