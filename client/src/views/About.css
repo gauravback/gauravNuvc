@@ -190,6 +190,7 @@ h3 {
   }
 }
 
+<<<<<<< HEAD
 .paragraph {
   animation-duration: 3s;
   animation-name: slidein;
@@ -226,3 +227,5 @@ h3 {
   box-shadow: inset 0 0 0 25px #53a7ea;
   width: 80vw;
 } */
+=======
+>>>>>>> main

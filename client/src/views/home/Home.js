@@ -9,20 +9,22 @@ import Credit from "../pages/Credit";
 import OurPrograms from "../OurPrograms";
 import Carousel from "./Carousel";
 import Steps from "./Steps";
+import GalleryCaro from "./gallerycaro";
+import FAQ from "./Faq";
+import Review from "./Review";
 
 function Home() {
   return (
     <div>
-      {/* <Header /> */}
       <Banners />
       <Headlines />
       <Content />
-      <Carousel />
       <Steps />
-      <OurPrograms />
       <Partner />
-      {/* <Credit /> */}
-      {/* <Footer /> */}
+      <OurPrograms />
+      <GalleryCaro />
+      <FAQ />
+      <Review />
     </div>
   );
 }
