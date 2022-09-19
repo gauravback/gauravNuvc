@@ -29,7 +29,7 @@ function OurPrograms() {
     </div>
   </div>
 </div>
-<div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"2rem"}}>
+<div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"1rem"}}>
   <div class="row g-0">
     <div class="col-md-4">
       <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/Entrepreneur-01_11zon.jpg" class="img-fluid rounded-start"/>
@@ -62,7 +62,7 @@ function OurPrograms() {
     </div>
   </div>
 </div>
-<div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"2rem"}}>
+<div class="card mb-3" style={{border: "10px solid #ffffff", backgroundColor:"#2596be", borderRadius:"1rem"}}>
   <div class="row g-0">
     <div class="col-md-4">
       <img src="https://nuvc-public.s3.ap-south-1.amazonaws.com/new+national+educational+policy+2022+17+sep+2022-01-01_11zon.jpg" class="img-fluid rounded-start"/>
