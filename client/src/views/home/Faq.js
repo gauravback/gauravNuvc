@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 export default function FAQ(){
 
     return(
-        <div className="container" style={{display:"flex", flexDirection:"row", padding:"2vw"}}>
+        <div className="faq">
             <div style={{width:"60vw", heigh:"60vh"}}>
             <h1 style={{paddingTop:"25%",color:"#036a9c"}}>अकसर पूछे जाने वाले सवाल</h1>
             </div>
