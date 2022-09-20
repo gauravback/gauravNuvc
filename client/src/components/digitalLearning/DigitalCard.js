@@ -12,7 +12,7 @@ function DigitalCard({
 
   return (
     <Link to={`/digitalLearning/descp/${id}`}>
-      <div class="card shadow-sm m-4" style={{border:"4px solid #d72886"}}>
+      <div class="card shadow-sm m-4" style={{border:"4px solid rgb(63 1 83)"}}>
         <div style={{ height: 200, backgroundColor: "#eee"  }}>
           <img
             src={icon}

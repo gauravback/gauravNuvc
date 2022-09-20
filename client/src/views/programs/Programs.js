@@ -1,7 +1,5 @@
 import React from "react";
-// import ContentCard from "../home/ContentCard";
 import Partner from "../home/Partner";
-// import Credit from "../pages/Credit";
 
 function Programs() {
   return (
