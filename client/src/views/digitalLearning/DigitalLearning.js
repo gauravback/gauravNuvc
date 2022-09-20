@@ -19,12 +19,13 @@ function DigitalLearning() {
   }, []);
   return (
     <div >
-      <div>
-        <img src={hero} style={{ width: "98.9vw", height: "15vw" }} />
+      <div style={{clipPath:"polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px))",padding:"5vw",backgroundColor:"rgb(63 1 83)"}}>
+        {/* <img src={hero} style={{ width: "98.9vw", height: "15vw" }} /> */}
+        <h1 style={{textAlign:"center",color:"#ffffff"}}>DIGITAL LEARNING/डिजिटल लर्निंग</h1>
       </div>
       <div
         className="container-fluid"
-        style={{ paddingTop: 15, paddingBottom: 15 }}
+        style={{ paddingTop: "10vh", paddingBottom: 15 ,clipPath:"polygon(0 0,50% 50px,100% 0,100% 100%,0 100%)"}}
       >
         <div className="row">
           {courses?.map((course) => {

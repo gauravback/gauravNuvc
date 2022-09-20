@@ -17,8 +17,14 @@ function Career() {
   }, []);
 
   return (
-    <div className="container">
-      {/* <Process /> */}
+    <div>
+      <div style={{clipPath:"polygon(0 0,100% 0,100% calc(100% - 50px),50% 100%,0 calc(100% - 50px))",padding:"5vw",backgroundColor:"rgb(63 1 83)"}}>
+        {/* <img src={hero} style={{ width: "98.9vw", height: "15vw" }} /> */}
+        <h1 style={{textAlign:"center",color:"#ffffff"}}>
+        JOBS/नौकरियां</h1>
+      </div>
+    <div className="container" 
+        style={{ paddingTop: "10vh", paddingBottom: 15 ,clipPath:"polygon(0 0,50% 50px,100% 0,100% 100%,0 100%)"}}>
       <div className="row">
         {jobs?.map((job) => {
           return (
@@ -35,6 +41,7 @@ function Career() {
           );
         })}
       </div>
+    </div>
     </div>
   );
 }
