@@ -31,7 +31,7 @@ function Programs() {
         <div classNameName="card-body">
           <h4 classNameName="card-title">
             <b>
-              <span style={{ color: "red", alignContent:"center"}}>
+              <span style={{ color: "red", alignContent: "center" }}>
                 <em>उद्यमित कार्नर</em>
               </span>
             </b>{" "}
@@ -108,7 +108,7 @@ function Programs() {
         <h1>Click Me ?</h1>
         <div className="flip-card-inner">
           <div className="flip-card-front">
-            <img src={card4} alt="" style={{ width: "30vw", height: "30vw" }} />
+            <img src={card4} alt="" />
           </div>
           <div className="flip-card-back">
             <h1>Skill INDIA</h1>
