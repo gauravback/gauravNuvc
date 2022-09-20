@@ -57,13 +57,17 @@ function Nav() {
                   type="button"
                   class="btn btn-secondary dropdown-toggle"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false" style={{backgroundColor:"rgb(63, 1, 83)"}}
+                  aria-expanded="false"
+                  style={{ backgroundColor: "rgb(63, 1, 83)" }}
                 >
                   About
                 </button>
-                <ul class="dropdown-menu" style={{backgroundColor:"rgb(63, 1, 83)"}}>
+                <ul
+                  class="dropdown-menu"
+                  style={{ backgroundColor: "rgb(63, 1, 83)" }}
+                >
                   <li>
-                    <Link to="/about" className="dropdown-item" href="#" >
+                    <Link to="/about" className="dropdown-item" href="#">
                       About US
                     </Link>
                   </li>
