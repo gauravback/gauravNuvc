@@ -6,7 +6,7 @@ function GalleryCaro() {
     <div
       style={{
         width: '100%',
-        height: 300,
+        height: "auto",
         border:"8px solid rgb(63 1 83)"
       }}
     >

@@ -3,8 +3,8 @@ import Card from 'react-bootstrap/Card';
 
 function Review() {
   return (
-    <div  style={{ border:"5px solid #6978b1", backgroundColor:"#6978b1"}}>
-    <div className="container" style={{display:"flex", flexDirection:"row", padding:"2vw", border:"5px solid #6978b1", marginBottom:"1vw"}}>
+    <div className='review'>
+    <div className="content" >
     <Card className="text-center" style={
         {padding:"3vw",backgroundColor:"#6978b1"}
     }>
