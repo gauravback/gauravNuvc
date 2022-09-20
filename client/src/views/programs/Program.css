@@ -14,7 +14,7 @@
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  border: 2px solid green;
+  border: 2px solid rgb(98, 0, 128);
 
   justify-content: center;
 }
@@ -48,8 +48,8 @@
   perspective: 1000px;
   text-align: center;
   margin: 5% 8% 10% 35%;
-  color: blue;
-  background-color: orangered;
+  color: white;
+  background-color: rgb(144, 0, 255);
 }
 
 .flip-card-inner {
@@ -98,4 +98,26 @@
   background-color: red;
   color: whitesmoke;
   box-shadow: 2px 2px 2px white;
+}
+
+.flip-card-front img {
+  width: 30vw;
+  height: 30vw;
+}
+
+@media (max-width: 640px) {
+  .flip-card {
+    width: 80vw;
+    margin-left: 10%;
+    height: 140vw;
+    margin: 5% 8% 25% 9%;
+  }
+  .flip-card-inner img {
+    width: 80vw;
+    height: 80vw;
+  }
+  .flip-card-back button {
+    width: 30vw;
+    height: 10vw;
+  }
 }
