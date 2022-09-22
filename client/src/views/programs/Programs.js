@@ -6,10 +6,32 @@ import card from "../../asstes/banners/3.png";
 import card2 from "../../asstes/banners/6.png";
 import card3 from "../../asstes/banners/9.png";
 import card4 from "../../asstes/banners/10.png";
+import card5 from "../../asstes/skillindia.png";
 
 import classNamees from "../programs/Program.css";
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
+import Modal from "@mui/material/Modal";
+const style = {
+  position: "absolute",
+  top: "49%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  width: 400,
+  bgcolor: "background.paper",
+  border: "2px solid #ccc",
+  boxShadow: 24,
+  width: "45vw",
+  height: "30vw",
+  p: 4,
+  borderRadius: "4px",
+};
 
 function Programs() {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   return (
     <div classNameName="container-fluid programs my-4">
       <div classNameName="program">
@@ -125,7 +147,60 @@ function Programs() {
               and certification of Indian youth for a better livelihood and
               respect in the society.
             </p>
-            <button>Explore More</button>
+            <Button onClick={handleOpen}>Explore More</Button>
+            <Modal
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="modal-modal-title"
+              aria-describedby="modal-modal-description"
+            >
+              <Box sx={style}>
+                <Typography
+                  id="modal-modal-title"
+                  variant="h6"
+                  component="h2"
+                ></Typography>
+                <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                  <img
+                    src={card5}
+                    alt=""
+                    style={{
+                      width: "10vw",
+                      height: "10vw",
+                      marginTop: "-8%",
+                      marginLeft: "-1.5vw",
+                    }}
+                  />
+                </Typography>
+                <Typography>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quibusdam repudiandae, velit rem nemo ea magni! NITI Aayog
+                    is developing itself as a state-of-the-art resource centre
+                    with the necessary knowledge and skills that will enable it
+                    to act with speed, promote research and innovation, provide
+                    strategic policy vision for the government, and deal with
+                    contingent issues. Launched by Hon'ble Prime Minister Shri
+                    Narendra Modi on 15 July 2015, SKILL INDIA MISSION aims to
+                    train over 40 crore people in India in different skills by
+                    2022. The mission aims at vocational training and
+                    certification of Indian youth for a better livelihood and
+                    respect in the society.
+                  </p>
+                  <button
+                    style={{
+                      width: "10vw",
+                      height: "3vw",
+                      border: "none",
+                      color: "red",
+                      backgroundColor: "skyblue",
+                    }}
+                  >
+                    Join Us
+                  </button>
+                </Typography>
+              </Box>
+            </Modal>
           </div>
         </div>
       </div>
